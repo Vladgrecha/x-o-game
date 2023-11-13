@@ -8,6 +8,7 @@ TagManager:
   - XSign
   - OSign
   - Sign
+  - Text
   layers:
   - Default
   - TransparentFX

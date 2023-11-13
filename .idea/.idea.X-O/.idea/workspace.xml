@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee5381d0-3a63-46ce-b54f-35095a24ac7c" name="Default Changelist" comment="" />
+    <list default="true" id="ee5381d0-3a63-46ce-b54f-35095a24ac7c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.X-O/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.X-O/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.X-O/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.X-O/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.X-O/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.X-O/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BoardManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BoardManager.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4746C126-B0B5-4F3B-8348-45974D1A9190/f6/9ca98ce6/Logger.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BoardManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4746C126-B0B5-4F3B-8348-45974D1A9190/80/01865649/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4746C126-B0B5-4F3B-8348-45974D1A9190/ec/0a30fd5f/Debug.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4746C126-B0B5-4F3B-8348-45974D1A9190/a6/42e6f1e4/UnitySynchronizationContext.cs" root0="SKIP_HIGHLIGHTING" />
@@ -19,7 +28,6 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BD683AFC-128A-44A9-ABD6-733A61102A16/e2/b2365cbb/NativeInputSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4746C126-B0B5-4F3B-8348-45974D1A9190/e9/73387856/Component.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/75633565-436C-42F0-A642-6B33F0132ADE/df/479a8249/String.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BoardManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4746C126-B0B5-4F3B-8348-45974D1A9190/c4/07ca3892/Object.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -89,6 +97,8 @@
       <workItem from="1696418852916" duration="13210000" />
       <workItem from="1696515145186" duration="1203000" />
       <workItem from="1696516984670" duration="31000" />
+      <workItem from="1699875470621" duration="484000" />
+      <workItem from="1699876047533" duration="140000" />
     </task>
     <servers />
   </component>

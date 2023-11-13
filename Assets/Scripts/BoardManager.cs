@@ -1,17 +1,18 @@
 ﻿using UnityEngine;
 using Random = UnityEngine.Random;
 using UnityEngine.SceneManagement;
-using System.Threading.Tasks;
-using System.Collections;
 
 namespace BoardManager
 {
     public class BoardManager : MonoBehaviour
     {
         private GameObject _clickedObject;
-        
+
+
         [SerializeField] private GameObject xSign;
         [SerializeField] private GameObject oSign;
+        [SerializeField] private GameObject _xWinText;
+        [SerializeField] private GameObject _oWinText;
         
         private string[,] _board;
 
@@ -41,6 +42,15 @@ namespace BoardManager
                 PlayerVPlayer();
                 FindWinner(_board);
             }
+
+            if (_xWin == true)
+            {
+                _xWinText.SetActive(true);
+            } 
+            else if (_oWin == true) 
+            {
+                _oWinText.SetActive(true);
+            }
         }
 
 
@@ -48,10 +58,12 @@ namespace BoardManager
         {
             XFirstTurn = true;
             float random = Random.Range(0, 1.0f);
+            
             if (random >= 0.5f)
             {
                 XFirstTurn = false;
             }
+            
             Debug.Log("Random result is " + random);
             return XFirstTurn;
         }
@@ -132,7 +144,7 @@ namespace BoardManager
         private bool IsTileClicked(GameObject clickedObject)
         {
             bool isTileClicked = false;
-            GameObject tileChild = GetChildGameObject(clickedObject, xSign.tag);
+            GameObject tileChild = GetChildGameObjectWithTag(clickedObject, xSign.tag);
 
             if (clickedObject.CompareTag("Tile") && tileChild == null)
             {
@@ -146,7 +158,7 @@ namespace BoardManager
             return isTileClicked;
         }
         
-        static public GameObject GetChildGameObject(GameObject fromGameObject, string childTag) 
+        static public GameObject GetChildGameObjectWithTag(GameObject fromGameObject, string childTag) 
         {
             if (fromGameObject != null)
             {
